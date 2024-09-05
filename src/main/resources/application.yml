@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 04-Spring-Security-Registration-Login
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    
